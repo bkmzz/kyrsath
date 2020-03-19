@@ -1,0 +1,274 @@
+/*Поле покупок*/
+#regfield {
+    position: relative;
+    top: 10px;
+    width: 40%;
+    left: 55%;
+    height: 110%;
+    opacity: 0.6;
+    background: rgb(51, 184, 228);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+#regfield1{
+  position: relative;
+    top: 10px;
+    width: 40%;
+    left: 55%;
+    height: 60%;
+    opacity: 0.6;
+    background: rgb(51, 184, 228);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-screen__content{opacity: 0.6;background-color:rgb(47, 145, 47);position:absolute;bottom:5.5625rem}
+.main-screen__title1{font-size:2rem;line-height:2.125rem;color:rgb(51, 184, 228);font-weight:700;margin-bottom:1.25rem}
+.main-screen__title2{font-size:2rem;line-height:2.125rem;color:#fff;font-weight:500;margin-bottom:1.25rem}
+
+#but{
+  border: 2px solid black;
+  height: 119px;
+  background-color: rgb(51, 184, 228);
+  font-size: larger;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#but:hover{
+  background-color: rgb(36, 128, 158);
+}
+
+#rad{
+  border: 2px solid black;
+  font-size: larger;
+  text-align: center;
+  padding-top: 40px;
+  height: 75px;
+  background-color: rgb(47, 145, 47);
+}
+
+.main-screen{height:45rem;position:relative;overflow:hidden}
+.main-screen__background{position:absolute;top:0;left:0;bottom:0;right:0}
+.main-screen__back-mobile{width:100%;height:100%;background-size:cover;background-position:70% 50%;background-repeat:no-repeat;background-image:url(../img/new-design/main-screen__image--desktop.jpg)}
+.main-screen__back-mobile:after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,.2)}
+.main-screen__back-desktop{display:none}
+.Entermenu{height:10rem; position:absolute;top:0;left:0;bottom:0;right:0;}
+
+#line2{
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.header_pull {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "ops title" 
+  "ops text"
+  "ops cost" 
+  "ops button";
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.image{
+  grid-area: ops;
+  margin-left: 15%;
+}
+.title{
+  grid-area: title;
+  font-size: 50px;
+  background-color: rgb(47, 145, 47);
+  border: 2px solid black;
+  text-align: center;
+}
+.text{
+  grid-area: text;
+}
+.cost{
+  grid-area: cost;
+  text-align: center;
+  background-color: rgb(47, 145, 47);
+  border: 1px dashed rgb(51, 184, 228);
+
+}
+
+/*Нижняя строка*/
+#line1 {
+  display: grid;
+  background-color: #333D72;
+  color:#C6B5AE ;
+  font-size: 20px;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  left: 0; bottom: 0;
+  padding: 10px;
+} 
+
+.buy{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(47, 145, 47);
+  text-align: center;
+  border: 2px solid black;
+  
+}
+
+#lost{
+  font-size: 50px;
+  background-color: rgb(47, 145, 47);
+  border: 2px solid black;
+  text-align: center;
+}
+
+.buy:hover{
+  background-color: rgb(47, 145, 47);
+}
+
+
+#registername {
+  font-weight: bolder;
+  color: rgb(28, 99, 28);
+  opacity: 1.0;
+  font-size: 40px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Enter {
+  position: relative;
+  font-weight: bolder;
+  width: 100%;
+  height: 30px;
+  background: rgb(47, 145, 47);
+}
+
+#Enter:hover {
+  background-color: rgb(47, 145, 47);
+}
+
+/*Верхняя строка*/
+#line {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas: ". ." "ops ops";
+  background-color: greenyellow;
+  width: 100%;
+  height: 55px;
+}
+
+#line > #main {
+  background-color: rgb(47, 145, 47);
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#line > #main:hover {
+  background-color: rgb(47, 145, 47);
+}
+
+#line > #enter:hover {
+  background-color: rgb(47, 145, 47);
+}
+
+#line > #baner {
+  background-color: rgb(51, 184, 228);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  
+}
+
+#line > #enter {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(47, 145, 47);
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+#line > #sum {
+    background-color: rgb(51, 184, 228);
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line > #price {
+    background-color: rgb(47, 145, 47);
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line > #price:hover{
+    background-color: rgb(47, 145, 47);
+}
+
+
+
+/*Рекламка*/
+.banner-container {
+  margin-top: 5px;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 6px;
+}
+
+.pod{
+  height: 100px;
+}
+
+.object{
+  position: relative;
+  opacity: 0.9;
+  background-color:rgb(47, 145, 47);
+}
+
+.ones{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.twos{
+  padding: 5px;
+  font-size: large;
+}
+
+.helps{
+  position: relative;
+  background-color: rgb(51, 184, 228);
+  width: 100%;
+  height: 50px;
+}
+
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all 1000ms ease;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}

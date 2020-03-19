@@ -1,0 +1,6 @@
+.hap{background-color: antiquewhite; position: static;height: 20%;}
+.hap1{background-color: antiquewhite; position: relative; float: right; height: 20%; }
+.p1{background-color: beige; position: relative; float: left; height: 70%; width: 50%;}
+.p2{ background-color: blanchedalmond; position: static; height: 70%; margin: -16px 0px 0px;}
+.p3{ background-color: burlywood;position: static;height: 10%;}
+body{ margin: 0px;}

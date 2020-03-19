@@ -1,0 +1,172 @@
+/*Поле покупок*/
+#regfield {
+    position: relative;
+    top: 10px;
+    width: 97%;
+    height: 100%;
+    background: rgb(51, 184, 228);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+.header_pull {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: 
+  "ops title" 
+  "ops text"
+  "ops cost" 
+  "ops button";
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.name{
+  font-weight: bolder;
+}
+
+.image{
+  grid-area: ops;
+  margin-left: 15%;
+}
+.title{
+  grid-area: title;
+  font-size: 20px;
+  background-color: rgb(47, 145, 47);
+  border: 2px solid black;
+  text-align: center;
+}
+.text{
+  grid-area: text;
+}
+.cost{
+  grid-area: cost;
+  text-align: center;
+  background-color: rgb(47, 145, 47);
+  border: 1px dashed rgb(51, 184, 228);
+
+}
+
+.buy{
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(47, 145, 47);
+  text-align: center;
+  border: 2px solid black;
+  
+}
+.buy:hover{
+  background-color: rgb(30, 94, 30);
+}
+
+
+#registername {
+  font-weight: bolder;
+  font-size: 40px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Enter {
+  position: relative;
+  font-weight: bolder;
+  width: 100%;
+  height: 30px;
+  background: rgb(47, 145, 47);
+}
+
+#Enter:hover {
+  background-color: rgb(30, 94, 30);
+}
+
+/*Верхняя строка*/
+#line {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 5fr 1fr;
+  grid-template-areas: ". ." "ops ops";
+  background-color: rgb(51, 184, 228);
+  width: 100%;
+  height: 55px;
+}
+
+#line > #main {
+  background-color: rgb(47, 145, 47);
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#line > #main:hover {
+  background-color: rgb(30, 94, 30);
+}
+
+#line > #enter:hover {
+  background-color: rgb(30, 94, 30);
+}
+
+#line > #baner {
+  background-color: rgb(51, 184, 228);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  
+}
+
+#line > #enter {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(47, 145, 47);
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+#line > #sum {
+    background-color: rgb(51, 184, 228);
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line > #price {
+    background-color: rgb(47, 145, 47);
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line > #price:hover{
+    background-color: rgb(30, 94, 30);
+}
+
+
+
+/*Рекламка*/
+.banner-container {
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background: #ccc;
+  border-radius: 6px;
+}
+
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: all 1000ms ease;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+}
